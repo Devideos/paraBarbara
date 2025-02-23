@@ -33,7 +33,7 @@
 }
 
 /* Estilos para telas menores que 480px (celulares pequenos) */
-@media (max-width: 480px) {
+@media (max-width: 488px) {
     .heart {
         width: 80px;
         height: 80px;
@@ -50,8 +50,8 @@
     }
 
     .letter {
-        width: 23rem;
-        height: 43rem;
+        width: 25rem;
+        height: 40rem;
         padding: 12px;
     }
 
