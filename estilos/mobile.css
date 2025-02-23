@@ -32,7 +32,7 @@
 }
 
 /* Estilos para telas menores que 480px (celulares pequenos) */
-@media (max-width: 488px) {
+@media (max-width: 550px) {
 
 
     .letter {
