@@ -51,7 +51,7 @@
 
     .letter {
         width: 90%;
-        height: 42rem;
+        height: auto;
         padding: 12px;
     }
 
