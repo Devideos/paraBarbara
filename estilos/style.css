@@ -65,21 +65,18 @@ body {
     display: flex;
     flex-direction: column;
     width: 45rem;
-    height: auto; /* Ajuste automático da altura */
-    background: #fff;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-    text-align: left;
-    font-family: 'Georgia', serif; /* Mudando para uma fonte mais clássica */
-    font-size: 1.1rem;
+    height: 48rem;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
     color: #333;
     position: absolute;
     opacity: 0;
     transform: scale(0.8);
-    line-height: 1.6;
-    max-width: 90vw; /* Ajusta para dispositivos móveis */
-    word-wrap: break-word; /* Garante que o texto se ajustará ao tamanho da tela */
 }
 
 .letter h1 {
@@ -87,12 +84,10 @@ body {
     font-size: 2rem;
     color: #ff4d6d;
     margin-bottom: 20px;
-    text-align: center;
 }
 
 .letter p {
     margin-bottom: 20px;
-    text-align: center;
 }
 
 .letter p:last-child {
