@@ -1,0 +1,68 @@
+
+/* Estilos para telas menores que 768px (tablets e celulares grandes) */
+@media (max-width: 768px) {
+    .heart {
+        width: 100px;
+        height: 100px;
+    }
+    .heart::before, .heart::after {
+        width: 100px;
+        height: 100px;
+    }
+    .heart::before {
+        top: -50px;
+    }
+    .heart::after {
+        left: 50px;
+    }
+
+    .letter {
+        width: 28rem;
+        height: 43rem;
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+}
+
+/* Estilos para telas menores que 480px (celulares pequenos) */
+@media (max-width: 480px) {
+    .heart {
+        width: 80px;
+        height: 80px;
+    }
+    .heart::before, .heart::after {
+        width: 80px;
+        height: 80px;
+    }
+    .heart::before {
+        top: -40px;
+    }
+    .heart::after {
+        left: 40px;
+    }
+
+    .letter {
+        width: 25rem;
+        height: 40rem;
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+
+

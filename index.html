@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coração Romântico</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="./estilos/mobile.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heart" onclick="openLetter()"></div>
+        <div class="letter">
+            <h1>Minha querida Barbara</h1>
+
+            <p>
+                Desde o momento em que nos conhecemos, eu sabia que algo especial estava prestes a acontecer. No nosso primeiro encontro, mesmo com o nervosismo e aquele frio na barriga, percebi que estava diante de alguém único. O nosso papo foi tão sincero, tão verdadeiro, que me fez sentir uma conexão imediata. Quando nos encontramos no MecBee, pude ver em você não apenas uma mulher linda, mas alguém com um coração tão grande e uma visão tão forte sobre a vida.
+                
+                Cada encontro desde então só tem sido mais incrível. O carinho, a cumplicidade e a verdade que compartilhamos me fazem ver o quanto essa relação é diferente. Você me inspira todos os dias, com sua força e independência. Mesmo com a diferença de idade, sinto que nossas almas se conectaram de um jeito tão natural, e me sinto imensamente grato por ter você ao meu lado.
+                
+                Neste momento difícil que estou vivendo, com a situação da minha família, você tem sido meu apoio e minha paz. Com você, posso ser eu mesmo, sem pressões ou inseguranças. Seus gestos de carinho e apoio me fazem sentir que, com você, tudo vai ficar bem. Eu me sinto leve, e tudo ao meu redor parece mais claro.
+                
+                Eu realmente quero que nossa história seja longa, que possamos continuar nos conhecendo e, quem sabe, construir algo ainda maior juntos no futuro. O que sinto por você é genuíno, e estou animado para ver onde essa jornada nos levará.
+            </p>
+            
+            <p>
+                Com todo meu carinho
+                David
+            </p>
+
+        </div>
+    </div>
+    
+    <script>
+        function openLetter() {
+            gsap.to(".heart", { 
+                y: -200, 
+                opacity: 0, 
+                duration: 0.8, 
+                ease: "power2.inOut" 
+            });
+            gsap.to(".letter", { 
+                opacity: 1, 
+                scale: 1, 
+                duration: 1, 
+                delay: 0.5, 
+                ease: "elastic.out(1, 0.5)" 
+            });
+        }
+    </script>
+</body>
+</html>
