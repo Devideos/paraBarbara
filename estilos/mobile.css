@@ -17,8 +17,8 @@
     }
 
     .letter {
-        width: 28rem;
-        height: 43rem;
+        width: 90vw;
+        height: auto;
         padding: 12px;
     }
 
