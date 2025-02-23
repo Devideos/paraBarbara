@@ -20,7 +20,7 @@ body {
     background-color: #ff4d6d;
     position: relative;
     transform: rotate(-45deg);
-    animation: glow 1.5s infinite alternate;
+    animation: glow 1.5s infinite alternate, pulse 1.2s infinite ease-in-out; /* Animações combinadas */
     cursor: pointer;
     z-index: 10;
 }
@@ -47,6 +47,18 @@ body {
     }
     100% {
         box-shadow: 0 0 30px rgba(255, 77, 109, 0.8);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: rotate(-45deg) scale(1); /* Normal */
+    }
+    50% {
+        transform: rotate(-45deg) scale(1.1); /* Leve aumento no tamanho */
+    }
+    100% {
+        transform: rotate(-45deg) scale(1); /* Volta ao normal */
     }
 }
 .letter {
