@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 110vh;
     background: radial-gradient(circle, #ff9a9e, #fad0c4);
     overflow-x: hidden;
 }
